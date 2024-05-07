@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './navbar.css'
+
 function navbar() {
   const[show,handleShow]=useState(false);
 
@@ -18,7 +19,7 @@ function navbar() {
     <div className={`nav ${show && "nav_black"}`}>
       <img
       className='nav_logo'
-      src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Logonfx.png/1199px-Logonfx.png?20190424232034'
+      src='https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg'
       alt='Netflix Logo'
      />
       <img
